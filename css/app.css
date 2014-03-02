@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-size: 10pt;
+    font-family: sans-serif;
+    color: #4B4B4B;
+    background-color: #F7F7F7;
+}
+
+header {
+	padding: 20px;
+	vertical-align: middle;
+	font-size: 140%;
+	font-weight: bold;
+	background-color: #4B4B4B;
+	color: #F7F7F7;
+}
+
+main {
+	display: block;
+	float: right;
+	width: 80%;
+	padding: 20px 0 20px 0;
+	box-sizing: border-box;
+}
+
+aside {
+	float: left;
+	width: 20%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+aside li {
+    padding: 6px;
+    border: solid 1px transparent;
+}
+aside li:hover {
+    font-weight: bold;
+    border: solid 1px grey;
+    padding-left: 15px;
+}
+
+footer {
+	clear: both;
+	padding: 20px;
+	font-size: 8px;
+	color: #878787;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 8pt;
+}
+table, tbody, thead, tr, th, td {
+    vertical-align: baseline;
+    padding: 4px;
+}
+
+.company-name {
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.company-selected {
+    background-color: #4B4B4B;
+    color: #F7F7F7;
+    font-weight: bold;
+    padding-left: 6px !important;
+}
+.company-list {
+    list-style-type: none;
+}
+
+.doc-data td {
+    border: solid 1px grey;
+    padding: 4px;
+}
+
+.doc-row {
+    cursor: pointer;
+}
+.doc-row:hover {
+    background-color: #E2E2E2;
+    color: black;
+}
+.doc-row td {
+    border: solid 1px grey;
+}
+
+.doc-name {
+    cursor: pointer;
+}
+.doc-name:hover {
+    background-color: #E2E2E2;
+    font-weight: bold;
+}
+
+.doc-children {
+    vertical-align: top;
+}
+.table-children {
+    padding-right: 0px !important;
+}
+
+.doc-table {
+    margin-top: 14px;
+}
+.doc-table thead {
+    color: #F7F7F7;
+    background-color: #919191;
+}
+.doc-table th {
+    border: solid 1px grey;
+}
+.doc-table td {
+    padding: 4px;
+}

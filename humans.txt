@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Andrea Martelli -- Candidate -- http://it.linkedin.com/in/martelliandrea/
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Underscore.js, Backbone.js, jQuery
+    JSON
